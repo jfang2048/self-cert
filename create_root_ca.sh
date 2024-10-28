@@ -79,6 +79,7 @@ show_generated_files() {
     ls -l "${cert_name}".*
 }
 
+
 main() {
     read_input
     generate_private_key
