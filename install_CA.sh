@@ -2,6 +2,7 @@
 
 copy_cert() {
     sudo cp "$1" /usr/share/ca-certificates/
+    sudo cp "$1" /usr/local/share/ca-certificates/
 }
 
 update_certs() {
